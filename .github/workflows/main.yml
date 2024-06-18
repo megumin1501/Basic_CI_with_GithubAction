@@ -24,7 +24,7 @@ jobs:
 
     - name: npm install, build, and test
       run: |
-        cd App_Fe
+        cd App_FE
         npm install
         npm run build --if-present
         npm run test --if-present
