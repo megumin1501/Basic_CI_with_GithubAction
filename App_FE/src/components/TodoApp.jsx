@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import ListItem from './ListItem';
 
-
 function TodoApp() {
   const [todos, setTodos] = useState([]);
   const [inputValue, setInputValue] = useState('');

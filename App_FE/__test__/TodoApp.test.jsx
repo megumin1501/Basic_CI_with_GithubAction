@@ -56,12 +56,4 @@ describe('TodoApp', () => {
     const deletedItem = queryByText('Buy groceries');
     expect(deletedItem).toBeNull();
   });
-
-  test('Footer', () => {
-    // Render the TodoApp component
-
-
-  });
-
-
 });
