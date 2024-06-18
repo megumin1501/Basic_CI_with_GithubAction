@@ -1,0 +1,46 @@
+name: Demo Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18.x'
+
+    - name: Test path
+      run: |
+        echo "Workspace path is: ${{ github.workspace }}"
+
+    - name: npm install, build, and test
+      run: |
+        cd Frontend/web-ui
+        npm install
+        npm run build --if-present
+        npm run test --if-present
+
+    # - name: Download Katalon
+    #   run: |
+    #     mkdir -p katalon
+    #     cd katalon
+    #     curl -O https://download.katalon.com/7.5.5/Katalon_Studio_Engine_Linux_64-7.5.5.tar.gz
+    #     tar -xzf Katalon_Studio_Engine_Linux_64-7.5.5.tar.gz
+    #     cd ..
+
+    # - name: Run Katalon tests with Xvfb
+    #   env:
+    #     KATALON_API_KEY: ${{ secrets.KATALON_API_KEY }}
+    #   run: |
+    #     xvfb-run -a ./katalon/Katalon_Studio_Engine_Linux_64-7.5.5/katalonc -noSplash -runMode=console -projectPath="${{ github.workspace }}" -retry=0 -testSuitePath="Test Suites/suite1" -apiKey="${{ secrets.KATALON_API_KEY }}" --config -webui.autoUpdateDrivers=true
+
+
