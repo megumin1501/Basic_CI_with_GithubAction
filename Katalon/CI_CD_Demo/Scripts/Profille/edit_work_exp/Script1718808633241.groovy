@@ -23,11 +23,10 @@ WebUI.navigateToUrl('http://localhost:5173/')
 
 WebUI.click(findTestObject('Object Repository/Page_App/button_Sign inSign up'))
 
-WebUI.setText(findTestObject('Object Repository/Page_App/input_Viet_form-input h-12 w-full rounded-s_87e3dd_1'), 'hoang.nguyenk20@hcmut.edu.vn')
+WebUI.setText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'), 'hoang.nguyenk20@hcmut.edu.vn')
 
-WebUI.click(findTestObject('Object Repository/Page_App/div_Password Forgot password'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input_Viet_form-input h-12 w-full rounded-s_87e3dd_1'), 'hk2K0obNy+UMbJIHJDm7BkkkmouD4uPumfdejAHSIK8=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'), 
+    '5lL1qnKF77CeoEhcqnDDHIhcdQFAAzuXgiYH7twAOyE=')
 
 WebUI.click(findTestObject('Object Repository/Page_App/span_Sign In with Email'))
 
@@ -35,18 +34,16 @@ WebUI.click(findTestObject('Object Repository/Page_App/button_Update profile'))
 
 WebUI.click(findTestObject('Object Repository/Page_App/svg_Your personal link_lucide lucide-circle_9b41fb_1_2'))
 
-WebUI.setText(findTestObject('Object Repository/Page_App/input_Viet_form-input h-12 w-full rounded-s_87e3dd_1'), 'Software Engineer')
+WebUI.setText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'), 'Software Engineer')
 
-WebUI.setText(findTestObject('Object Repository/Page_App/input_Viet_form-input h-12 w-full rounded-s_87e3dd_1'), 'hcmus')
+WebUI.setText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'), 'hcmus')
 
-WebUI.click(findTestObject('Object Repository/Page_App/input_Viet_form-input h-12 w-full rounded-s_87e3dd_1'))
+WebUI.click(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_App/select_Month123456789101112'), '8', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_App/select_Year20242023202220212020201920182017_9dbb72'), 
     '2020', true)
-
-WebUI.click(findTestObject('Object Repository/Page_App/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/Page_App/button_Save'))
 

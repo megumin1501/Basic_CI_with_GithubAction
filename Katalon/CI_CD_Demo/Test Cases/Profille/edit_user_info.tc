@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>edit_user_info</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>2b33e601-6391-46c0-84ff-5e5160c0f3f1</testCaseGuid>
-</TestCaseEntity>

@@ -25,9 +25,10 @@ WebUI.click(findTestObject('Object Repository/Page_App/div_1,031 IT Jobs For Cht
 
 WebUI.click(findTestObject('Object Repository/Page_App/button_Sign inSign up'))
 
-WebUI.setText(findTestObject('Object Repository/Page_App/input__title'), 'hoang.nguyenk20@hcmut.edu.vn')
+WebUI.setText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'), 'hoang.nguyenk20@hcmut.edu.vn')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input__title'), 'hk2K0obNy+UMbJIHJDm7BkkkmouD4uPumfdejAHSIK8=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'), 
+    '5lL1qnKF77CeoEhcqnDDHIhcdQFAAzuXgiYH7twAOyE=')
 
 WebUI.click(findTestObject('Object Repository/Page_App/span_Sign In with Email'))
 
@@ -36,52 +37,6 @@ WebUI.click(findTestObject('Object Repository/Page_App/button_Update profile'))
 WebUI.click(findTestObject('Object Repository/Page_App/p_Introduce your strengths and years of experience'))
 
 WebUI.click(findTestObject('Object Repository/Page_App/svg_Your personal link_lucide lucide-circle_9b41fb_1_2'))
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_s'), 's')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_so'), 'so')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_som'), 'som')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_some'), 'some')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_somet'), 'somet')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_someth'), 'someth')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_somethi'), 'somethi')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_somethin'), 'somethin')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_somethi'), 'somethi')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_someth'), 'someth')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_somet'), 'somet')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_some'), 'some')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_som'), 'som')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_so'), 'so')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_s'), 's')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_Tips_content'), '')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_v'), 'v')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_vi'), 'vi')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_vip'), 'vip')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_vipr'), 'vipr')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_vip'), 'vip')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_vipp'), 'vipp')
-
-WebUI.setText(findTestObject('Object Repository/Page_App/textarea_vippr'), 'vippr')
 
 WebUI.setText(findTestObject('Object Repository/Page_App/textarea_vippro'), 'vippro')
 

@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/Page_App/button_Sign inSign up'))
 
 WebUI.setText(findTestObject('Object Repository/Page_App/input__title'), 'invalidEmail')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input_Viet_form-input h-12 w-full rounded-s_87e3dd_1'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'), 
     'B25cOLsYAxgGukWMlPkfRHGv5ELaO1Us6RiEPJlKk6I=')
 
 WebUI.click(findTestObject('Object Repository/Page_App/button_Sign In with Email'))

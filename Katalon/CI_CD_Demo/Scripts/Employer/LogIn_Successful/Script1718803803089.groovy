@@ -27,10 +27,9 @@ WebUI.switchToWindowTitle('App')
 
 WebUI.click(findTestObject('Object Repository/Page_App/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Page_App/input__title'), 'phamviet12092002@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_App/input__title'), 'hoang.nguyenk20@hcmut.edu.vn')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input__title'), 
-    'B25cOLsYAxgGukWMlPkfRHGv5ELaO1Us6RiEPJlKk6I=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input__title'), '5lL1qnKF77CeoEhcqnDDHIhcdQFAAzuXgiYH7twAOyE=')
 
 WebUI.click(findTestObject('Object Repository/Page_App/button_Sign In'))
 

@@ -23,9 +23,9 @@ WebUI.navigateToUrl('http://localhost:5173/')
 
 WebUI.click(findTestObject('Object Repository/Page_App/button_Sign inSign up'))
 
-WebUI.setText(findTestObject('Object Repository/Page_App/input_Viet_form-input h-12 w-full rounded-s_87e3dd_1'), 'unregistedEmail@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'), 'unregistedEmail@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input_Viet_form-input h-12 w-full rounded-s_87e3dd_1'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'), 
     'qw27S/QNMG8kmI9le2Ag0+8AWJXef8jetLKgQIMYMo8=')
 
 WebUI.click(findTestObject('Object Repository/Page_App/button_Sign In with Email'))

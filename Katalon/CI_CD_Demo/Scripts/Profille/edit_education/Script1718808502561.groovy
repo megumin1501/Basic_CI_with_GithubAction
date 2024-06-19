@@ -23,9 +23,9 @@ WebUI.navigateToUrl('http://localhost:5173/')
 
 WebUI.click(findTestObject('Object Repository/Page_App/button_Sign inSign up'))
 
-WebUI.setText(findTestObject('Object Repository/Page_App/input_Viet_form-input h-12 w-full rounded-s_87e3dd_1'), 'hoang.nguyenk20@hcmut.edu.vn')
+WebUI.setText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'), 'hoang.nguyenk20@hcmut.edu.vn')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input_Viet_form-input h-12 w-full rounded-s_87e3dd_1'), 'hk2K0obNy+UMbJIHJDm7BkkkmouD4uPumfdejAHSIK8=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'), 'hk2K0obNy+UMbJIHJDm7BkkkmouD4uPumfdejAHSIK8=')
 
 WebUI.click(findTestObject('Object Repository/Page_App/div_By signing in, you agree to FITviecs Te_2b0a49'))
 
@@ -35,11 +35,11 @@ WebUI.click(findTestObject('Object Repository/Page_App/button_Update profile'))
 
 WebUI.click(findTestObject('Object Repository/Page_App/circle'))
 
-WebUI.setText(findTestObject('Object Repository/Page_App/input_Viet_form-input h-12 w-full rounded-s_87e3dd_1'), 'HCMUS')
+WebUI.setText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'), 'HCMUS')
 
-WebUI.setText(findTestObject('Object Repository/Page_App/input_Viet_form-input h-12 w-full rounded-s_87e3dd_1'), 'Software Engineering')
+WebUI.setText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'), 'Software Engineering')
 
-WebUI.click(findTestObject('Object Repository/Page_App/input_Viet_form-input h-12 w-full rounded-s_87e3dd_1'))
+WebUI.click(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_App/select_Month123456789101112'), '5', true)
 

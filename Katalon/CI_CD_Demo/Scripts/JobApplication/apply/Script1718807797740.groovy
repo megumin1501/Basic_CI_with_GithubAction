@@ -23,10 +23,10 @@ WebUI.navigateToUrl('http://localhost:5173/')
 
 WebUI.click(findTestObject('Object Repository/Page_App/button_Sign inSign up'))
 
-WebUI.setText(findTestObject('Object Repository/Page_App/input__title'), 'hoang.nguyenk20@hcmut.edu.vn')
+WebUI.setText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'), 'hoang.nguyenk20@hcmut.edu.vn')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input__title'), 
-    'hk2K0obNy+UMbJIHJDm7BkkkmouD4uPumfdejAHSIK8=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'), 
+    '5lL1qnKF77CeoEhcqnDDHIhcdQFAAzuXgiYH7twAOyE=')
 
 WebUI.click(findTestObject('Object Repository/Page_App/button_Sign In with Email'))
 

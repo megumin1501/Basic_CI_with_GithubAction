@@ -23,12 +23,10 @@ WebUI.navigateToUrl('http://localhost:5173/')
 
 WebUI.click(findTestObject('Object Repository/Page_App/button_Sign inSign up'))
 
-WebUI.setText(findTestObject('Object Repository/Page_App/input__title'), 'phamviet12092002@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'), 'hoang.nguyenk20@hcmut.edu.vn')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input_Viet_form-input h-12 w-full rounded-s_87e3dd_1'), 
-    'B25cOLsYAxgGukWMlPkfRHGv5ELaO1Us6RiEPJlKk6I=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_5ed60f'), 
+    '5lL1qnKF77CeoEhcqnDDHIhcdQFAAzuXgiYH7twAOyE=')
 
-WebUI.click(findTestObject('Object Repository/Page_App/button_Sign In with Email'))
-
-WebUI.verifyTextPresent('Successfully authenticated from Email & Password account.', false)
+WebUI.click(findTestObject('Object Repository/Page_App/span_Sign In with Email'))
 

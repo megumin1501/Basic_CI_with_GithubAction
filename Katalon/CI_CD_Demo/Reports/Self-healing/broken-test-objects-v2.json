@@ -49,6 +49,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_e3bf66_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_App/input__title",
+      "brokenLocator": "//input[@name\u003d\u0027title\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_App/input__title_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_App/button_Update profile",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Manage CVs\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_App/button_Update profile_neighbor.png"
     }
   ]
 }
