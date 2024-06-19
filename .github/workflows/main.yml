@@ -33,7 +33,6 @@ jobs:
         path: App_FE/test_result.txt
   notify:
     runs-on: ubuntu-latest
-    needs: [build]
     steps:
       - name: Download test result
         uses: actions/download-artifact@v3
