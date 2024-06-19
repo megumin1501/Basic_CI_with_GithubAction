@@ -59,9 +59,9 @@ jobs:
           body: |
             Build ${{ needs.build.result }}
             Test Result:
-            ${{ steps.read_test_result.outputs.result }}
-            ${{ join( steps.read_test_result.outputs.*,'\n' )}}
-          to: sutucon1501@gmail.com
+            # ${{ join( steps.read_test_result.outputs.*,'\n' )}}
+            "GitHub build result: ${{ job.status }} ${{ github.event.pull_request.html_url || github.event.head_commit.url }}"
+          to: sutucon1501@gmail.com, phamviet12092002@gmail.com
           from: Trung Son Le
 
       - name: Post to a Slack channel

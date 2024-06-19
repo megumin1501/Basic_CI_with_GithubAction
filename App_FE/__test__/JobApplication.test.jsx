@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import { describe, it, expect } from 'vitest';
-import UIForm from '../src/components/UIForm'
-import UIFormWithCV from '../src/components/ui/UIFormWithCV'
+import JobApplication from '../src/components/ui/job-application'
+
 
 const testCases = [
   {
@@ -48,48 +48,58 @@ const testCases = [
     skills: 'Angular, TypeScript',
     resume: new File(['resume content'], 'resume.pdf', { type: 'application/pdf' }),
     shouldSubmit: true
+  },
+  {
+    name: 'Alice Green',
+    email: 'alice@example.com',
+    position: 'frontend',
+    experience: 4,
+    skills: 'Vue.js, JavaScript',
+    resume: new File(['resume content'], 'resume.pdf', { type: 'application/pdf' }),
+    shouldSubmit: true
+  },
+  {
+    name: '',
+    email: 'noemail@example.com',
+    position: 'backend',
+    experience: 5,
+    skills: 'Python, Django',
+    resume: new File(['resume content'], 'resume.pdf', { type: 'application/pdf' }),
+    shouldSubmit: false
+  },
+  {
+    name: 'Bob Brown',
+    email: 'bob@example.com',
+    position: '',
+    experience: 3,
+    skills: 'Ruby on Rails',
+    resume: new File(['resume content'], 'resume.pdf', { type: 'application/pdf' }),
+    shouldSubmit: false
+  },
+  {
+    name: 'Carol Blue',
+    email: 'carol@example.com',
+    position: 'backend',
+    experience: 2,
+    skills: 'Java, Spring',
+    resume: null,
+    shouldSubmit: false
+  },
+  {
+    name: 'Dan Yellow',
+    email: 'dan@example.com',
+    position: 'fullstack',
+    experience: 7,
+    skills: 'React, Node.js',
+    resume: new File(['resume content'], 'resume.pdf', { type: 'application/pdf' }),
+    shouldSubmit: true
   }
 ];
 
-
-describe('IT Job Application', () => {
-    test('renders the application form', () => {
-    render(<UIForm />);
-    expect(screen.getByText('IT Job Application')).toBeInTheDocument();
-  });
-
-  test('contains a name input field', () => {
-    render(<UIForm />);
-    expect(screen.getByLabelText(/name/i)).toBeInTheDocument();
-  });
-
-  test('contains an email input field', () => {
-    render(<UIForm />);
-    expect(screen.getByLabelText(/email/i)).toBeInTheDocument();
-  });
-
-  test('contains a position dropdown', () => {
-    render(<UIForm />);
-    expect(screen.getByLabelText(/position/i)).toBeInTheDocument();
-  });
-
-  test('form submits correctly with valid data', () => {
-    render(<UIForm />);
-
-    fireEvent.change(screen.getByLabelText(/name/i), { target: { value: 'John Doe' } });
-    fireEvent.change(screen.getByLabelText(/email/i), { target: { value: 'john@example.com' } });
-    fireEvent.change(screen.getByLabelText(/position/i), { target: { value: 'frontend' } });
-    fireEvent.change(screen.getByLabelText(/experience/i), { target: { value: 5 } });
-
-    fireEvent.click(screen.getByText(/apply/i));
-  });
-});
-
-
-describe('test UI Form with data driven', () => {
+describe('IT Job Application - Data Driven Tests', () => {
   testCases.forEach((testCase, index) => {
     it(`TC ${index + 1}: ${testCase.shouldSubmit ? 'should' : 'should not'} submit`, () => {
-      render(<UIFormWithCV />);
+      render(<JobApplication />);
 
       fireEvent.change(screen.getByLabelText(/name/i), { target: { value: testCase.name } });
       fireEvent.change(screen.getByLabelText(/email/i), { target: { value: testCase.email } });
