@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Forgot password_form-input h-12 w-ful_e3bf66</name>
+   <name>input__title</name>
    <tag></tag>
    <elementGuidId>6138039a-28ea-4219-b5a2-47daef6140e2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.form-input.h-12.w-full.rounded-sm.border.border-red-500.px-4.py-2</value>
+         <key>XPATH</key>
+         <value>//input[@name='title']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@value='phamviet12092002@gmail.com'])[2]</value>
+         <key>CSS</key>
+         <value>input[name=&quot;title&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Password&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Title&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,78 +29,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2a4280ee-a7d3-4603-963f-c6f3b208c051</webElementGuid>
+      <webElementGuid>55a3a23f-06ca-4265-a37d-cdbed140f4d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>e23ce09a-bf98-40ee-bd0b-2d75337758a2</webElementGuid>
+      <value>text</value>
+      <webElementGuid>917c30b1-185d-4b5a-a459-c2e278f4350c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>title</value>
+      <webElementGuid>a9e0c95c-f6f6-4660-9339-835f51fe480b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-input h-12 w-full rounded-sm border border-red-500 px-4 py-2</value>
-      <webElementGuid>0de9b054-7f09-469f-8429-f3e59d36d527</webElementGuid>
+      <value>mt-1 w-full rounded border-2 p-2 outline-none border-red-500</value>
+      <webElementGuid>b0811c02-4d53-40fe-8c56-9f726c9b0009</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>694d3e63-9aea-4cd6-855b-fa86d1fda97f</webElementGuid>
+      <value>Title</value>
+      <webElementGuid>242974ca-f7e8-49dd-bfe0-c4da603ba249</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>phamviet12092002@gmail.com</value>
-      <webElementGuid>00843d4d-4913-40fe-8398-c2257bf4a159</webElementGuid>
+      <value>50</value>
+      <webElementGuid>a3d07086-c970-4fcd-bd32-3e0d78fd1351</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;mx-auto max-w-7xl sm:px-4 w-full max-w-full sm:px-0&quot;]/div[@class=&quot;grid h-full w-full grid-cols-2 xl:grid-rows-1&quot;]/div[@class=&quot;h-full w-full&quot;]/div[@class=&quot;mx-auto mb-10 mt-[16vh]  max-w-[580px]&quot;]/div[@class=&quot;mb-6&quot;]/div[@class=&quot;relative mb-1&quot;]/input[@class=&quot;form-input h-12 w-full rounded-sm border border-red-500 px-4 py-2&quot;]</value>
-      <webElementGuid>d0fa76b7-b426-4faf-956c-9db14aa51a86</webElementGuid>
+      <value>id(&quot;login-popup&quot;)/div[@class=&quot;mt-8 h-[96%] w-[53%] transform  overflow-auto rounded-lg bg-white p-8 shadow-md transition-all duration-300 ease-in-out&quot;]/form[@class=&quot;mt-8&quot;]/div[@class=&quot;mb-4&quot;]/input[@class=&quot;mt-1 w-full rounded border-2 p-2 outline-none border-red-500&quot;]</value>
+      <webElementGuid>07a10c82-67f0-46ea-b1f3-f3d363e61f3a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@value='phamviet12092002@gmail.com'])[2]</value>
-      <webElementGuid>8ea060d3-fea5-48f0-8d02-e139cbbaece9</webElementGuid>
+      <value>//input[@name='title']</value>
+      <webElementGuid>6ee455e0-9990-4cfc-a9da-64f7c1c62128</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[4]/div/div[2]/div/div[3]/div[2]/input</value>
-      <webElementGuid>932c4382-7c1a-4401-bef1-ecc46c3a1ae8</webElementGuid>
+      <value>//div[@id='login-popup']/div/form/div[2]/input</value>
+      <webElementGuid>ce353b38-9b99-42e2-9a1f-a4a7a1082a73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div[2]/input</value>
-      <webElementGuid>81652d82-2880-42ef-852f-ff1d84429b5e</webElementGuid>
+      <value>//div[2]/input</value>
+      <webElementGuid>3e580424-8f1a-4871-9d6a-1f4370f60b23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @placeholder = 'Password']</value>
-      <webElementGuid>e3ae420a-3dcb-4fe8-90dc-31e713a781c9</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'title' and @placeholder = 'Title']</value>
+      <webElementGuid>2d182fa1-9081-4642-a596-4d6e53263256</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

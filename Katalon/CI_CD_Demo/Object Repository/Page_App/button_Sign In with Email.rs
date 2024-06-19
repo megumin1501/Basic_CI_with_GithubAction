@@ -6,12 +6,12 @@
    <elementGuidId>6066ae7c-0779-4451-bc1c-8444eb4fde8f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[4]/div[2]/div/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f454926a-7589-48db-a7fb-5cfa4a8b04dd</webElementGuid>
+      <webElementGuid>b3fe4ae0-39b2-4f02-9cab-e7348661558c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-6 flex h-12 w-full items-center justify-center gap-0 rounded-sm  py-2 font-bold text-white bg-red-500 hover:bg-red-700</value>
-      <webElementGuid>0332f75a-4130-4f9b-baab-cf7c94cf796c</webElementGuid>
+      <webElementGuid>7a720c39-ca1d-46b6-9cdb-959b56cc19ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign In with Email</value>
-      <webElementGuid>ec24e986-9c18-4b8f-8a36-96d71515fc2e</webElementGuid>
+      <webElementGuid>0d017911-c562-4f65-848a-c632bd7ed413</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;mx-auto max-w-7xl sm:px-4 py-16 pt-8&quot;]/div[@class=&quot;flex gap-x-32&quot;]/div[@class=&quot;leftside w-5/12&quot;]/button[@class=&quot;mb-6 flex h-12 w-full items-center justify-center gap-0 rounded-sm  py-2 font-bold text-white bg-red-500 hover:bg-red-700&quot;]</value>
-      <webElementGuid>f54f1f56-1424-4cb0-9c64-92eb75a06447</webElementGuid>
+      <webElementGuid>11dbb93b-eab4-4217-ad6d-b8e46997d8db</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[4]/div[2]/div/button[2]</value>
-      <webElementGuid>e8dcbe06-b101-434c-b585-01ecd7c62e5d</webElementGuid>
+      <webElementGuid>93ba6a59-1b1c-4c59-963f-0b63bc5d8335</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</value>
-      <webElementGuid>09da48df-8bad-4ec1-bc1d-6c68e53149fc</webElementGuid>
+      <webElementGuid>97f1e546-0467-4a12-80ea-52cecc4eb0d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::button[1]</value>
-      <webElementGuid>f18acc55-a4e0-4524-9feb-d09a4545348b</webElementGuid>
+      <webElementGuid>5fcd613a-c74a-47e9-a54e-4f160e0d7353</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/button[2]</value>
-      <webElementGuid>354909f2-851d-4bdb-9055-9d957ab22bb9</webElementGuid>
+      <webElementGuid>2121e0eb-2e8e-4f91-8886-3a66d5e549ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Sign In with Email' or . = 'Sign In with Email')]</value>
-      <webElementGuid>40cadc23-c55a-4f6f-b76a-69051bf32d36</webElementGuid>
+      <webElementGuid>c582d9b0-3b40-4fc6-9d16-c9970eb5c1c3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

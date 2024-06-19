@@ -6,12 +6,12 @@
    <elementGuidId>8af4caa5-8502-421e-86c6-7fab383fd5e9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[4]/div/div/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>58ce661c-4798-4188-b8c0-2d1b229ecbc1</webElementGuid>
+      <webElementGuid>cac78ed1-767d-4054-9c0e-0e6215b75d3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2</value>
-      <webElementGuid>4775655f-fd01-4bf9-b85f-fd03abdfe880</webElementGuid>
+      <webElementGuid>242000eb-111b-43ed-989d-5211da0d2ae7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Search</value>
-      <webElementGuid>2f5f5e25-2f58-4662-bf3f-76bb60dd8f05</webElementGuid>
+      <webElementGuid>b16a1511-911d-4f26-857a-90398929a0a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;bg-linear-gradient py-16 pt-36&quot;]/div[@class=&quot;mx-auto max-w-7xl sm:px-4 undefined&quot;]/div[@class=&quot;mt-8 grid grid-cols-5 gap-x-2&quot;]/button[@class=&quot;inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2&quot;]</value>
-      <webElementGuid>73e6546c-7339-4457-857c-cae3c1d0c2ee</webElementGuid>
+      <webElementGuid>6e6d4af9-ecc9-4cee-b9b6-de815bfcd4ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,15 +61,15 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[4]/div/div/button[2]</value>
-      <webElementGuid>168a2b71-edea-449c-89fb-0591bcb474e7</webElementGuid>
+      <webElementGuid>b8a8880a-65a8-4fe7-967d-70da4e5ad907</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ho Chi Minh'])[1]/following::button[1]</value>
-      <webElementGuid>57eddab3-54ed-425d-a827-1c694db6ec9b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Cities'])[1]/following::button[1]</value>
+      <webElementGuid>d4637475-ad9a-41ee-8d96-6ef6986ceceb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Trending now:'])[1]/preceding::button[1]</value>
-      <webElementGuid>e9b990c6-51ce-45d7-9f34-e0abf82778cc</webElementGuid>
+      <webElementGuid>418f2885-23db-449f-af15-15010d59bb1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Java'])[1]/preceding::button[1]</value>
-      <webElementGuid>7f0e0434-6855-4160-ae07-5e4515ff8768</webElementGuid>
+      <webElementGuid>3acbf7c0-17df-48e3-855e-c1de55f67939</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Search']/parent::*</value>
-      <webElementGuid>15705338-0a1d-4ccf-9ce9-c8853a95ab3c</webElementGuid>
+      <webElementGuid>fc4a74f1-89cd-45f3-9023-4a51387e966d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/button[2]</value>
-      <webElementGuid>b9c30085-f533-44c0-b9e5-6e3fbf9c3d13</webElementGuid>
+      <webElementGuid>1b7e28c8-261b-4046-9301-54a289dd78d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Search' or . = 'Search')]</value>
-      <webElementGuid>52085b7b-585c-4ce4-bdab-f57abc974046</webElementGuid>
+      <webElementGuid>55131372-9a40-4359-9031-a975b2b2759f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

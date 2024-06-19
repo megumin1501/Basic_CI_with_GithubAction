@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__form-input h-12 w-full rounded-sm bo_f18aed_1_2_3_4</name>
+   <name>input_Viet_form-input h-12 w-full rounded-s_87e3dd_1</name>
    <tag></tag>
    <elementGuidId>66246d2a-abee-427b-a4c7-07f7bfa5eee2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.form-input.h-12.w-full.rounded-sm.border.border-gray-300.py-2.pl-12.pr-4</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@value='']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-input.h-12.w-full.rounded-sm.border.text-slate-700.border-gray-300.px-4.py-2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Work location (province, city, district, ward, street...)&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Confirm new password&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,39 +29,39 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b2e3d3b2-b031-4e78-99f4-cf80cd0be47d</webElementGuid>
+      <webElementGuid>c1d96cfb-01b9-4e45-a6a0-710c17df413f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>cc375a46-8a92-4660-b53e-3a89216ddceb</webElementGuid>
+      <value>password</value>
+      <webElementGuid>f2c45339-b38c-46f5-92f4-8f17a63642f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-input h-12 w-full rounded-sm border border-gray-300 py-2 pl-12 pr-4</value>
-      <webElementGuid>75588b92-cf98-4114-924f-c8c533dd0d02</webElementGuid>
+      <value>form-input h-12 w-full rounded-sm border text-slate-700 border-gray-300 px-4 py-2</value>
+      <webElementGuid>437eff57-0e4f-487a-a960-2ee0c6ebbb4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Work location (province, city, district, ward, street...)</value>
-      <webElementGuid>133c09ed-baea-42cd-a7bf-5d5b736c4c92</webElementGuid>
+      <value>Confirm new password</value>
+      <webElementGuid>a72b08d6-8adb-4d5b-b928-d2af457b5962</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;mx-auto max-w-7xl sm:px-4 w-full max-w-full&quot;]/div[@class=&quot;grid h-full w-full grid-cols-3 xl:grid-rows-1&quot;]/div[@class=&quot;bg-content col-span-2 h-full w-full bg-itviec-register-employer bg-bottom bg-no-repeat pb-8&quot;]/div[@class=&quot;mx-auto mb-8 max-w-[1000px]&quot;]/div[2]/div[@class=&quot;mb-6&quot;]/div[@class=&quot;relative mb-1&quot;]/input[@class=&quot;form-input h-12 w-full rounded-sm border border-gray-300 py-2 pl-12 pr-4&quot;]</value>
-      <webElementGuid>ed7cbc56-9c6a-4ceb-b201-ae963f7f1526</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;min-h-screen bg-gray-200&quot;]/div[@class=&quot;mx-auto max-w-7xl sm:px-4 max-w-[1000px] pb-4 pt-4&quot;]/div[@class=&quot;mt-4 flex w-full flex-col rounded-lg bg-white shadow-lg&quot;]/div[@class=&quot;mx-8 grid grid-cols-12   pb-4 pt-6&quot;]/div[@class=&quot;col-span-9 flex flex-col justify-center&quot;]/div[@class=&quot;mb-2&quot;]/div[@class=&quot;relative mb-1&quot;]/input[@class=&quot;form-input h-12 w-full rounded-sm border text-slate-700 border-gray-300 px-4 py-2&quot;]</value>
+      <webElementGuid>b207a505-867b-48eb-9ba5-236b33abcbf8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,30 +69,30 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='']</value>
-      <webElementGuid>a65dac2f-64b3-4862-8a73-105b3809a44d</webElementGuid>
+      <webElementGuid>0388d8d9-76ad-440a-b294-fd4d0ba291f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[4]/div/div/div[3]/div[2]/div[4]/div[2]/input</value>
-      <webElementGuid>9f3b8281-03d9-4a32-86de-e5341973d68e</webElementGuid>
+      <value>//div[@id='root']/div[4]/div/div/div[3]/div[2]/div[3]/div/input</value>
+      <webElementGuid>49d8d98f-ea3e-49c2-867e-d700ea0c2014</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div[2]/input</value>
-      <webElementGuid>938b709c-8e76-4fb3-a078-ab56160b2866</webElementGuid>
+      <value>//div[3]/div/input</value>
+      <webElementGuid>8503c540-43be-4285-9718-687c6954667c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @placeholder = 'Work location (province, city, district, ward, street...)']</value>
-      <webElementGuid>a04c2bca-1d52-4327-b9db-fc488a6b272f</webElementGuid>
+      <value>//input[@type = 'password' and @placeholder = 'Confirm new password']</value>
+      <webElementGuid>4eedaf07-8840-4cbe-bd9d-e89c492f7885</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>circle</name>
+   <tag></tag>
+   <elementGuidId>7f70bb01-caab-461e-9560-cf759e92955c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.mr-16 > button >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>circle</value>
+      <webElementGuid>559ccc82-dec1-4219-bd33-a6df24c0b169</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cx</name>
+      <type>Main</type>
+      <value>12</value>
+      <webElementGuid>6c03be02-7a9f-4471-bf63-d72a995cd768</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cy</name>
+      <type>Main</type>
+      <value>12</value>
+      <webElementGuid>1b169517-3fe4-4e7c-9619-2bb8079f4229</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>r</name>
+      <type>Main</type>
+      <value>10</value>
+      <webElementGuid>1ebebb4d-d567-4fd7-a355-2762b83581e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;min-h-screen bg-gray-200&quot;]/div[@class=&quot;mx-auto max-w-7xl sm:px-4  grid grid-cols-4 gap-6 pb-10 pt-4&quot;]/div[@class=&quot;col-span-3 mt-3&quot;]/div[3]/div[@class=&quot;relative mt-4 flex  w-full flex-row justify-between rounded-lg bg-white shadow-lg&quot;]/div[@class=&quot;mr-16 mt-3 flex flex-row p-4&quot;]/button[1]/svg[@class=&quot;lucide lucide-circle-plus absolute right-0 top-0 h-5 w-5 translate-x-[-150%] translate-y-6 cursor-pointer text-red-500&quot;]/circle[1]</value>
+      <webElementGuid>381e7dc5-5fff-439b-9a80-17255baafdf6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

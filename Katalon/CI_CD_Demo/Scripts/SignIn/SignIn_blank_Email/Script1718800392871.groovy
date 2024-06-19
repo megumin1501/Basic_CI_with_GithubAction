@@ -23,9 +23,9 @@ WebUI.navigateToUrl('http://localhost:5173/')
 
 WebUI.click(findTestObject('Object Repository/Page_App/button_Sign inSign up'))
 
-WebUI.setText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_e3bf66'), '')
+WebUI.setText(findTestObject('Object Repository/Page_App/input__title'), '')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input__form-input h-12 w-full rounded-sm bo_f18aed_1_2_3_4'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input_Viet_form-input h-12 w-full rounded-s_87e3dd_1'), 
     'B25cOLsYAxgGukWMlPkfRHGv5ELaO1Us6RiEPJlKk6I=')
 
 WebUI.click(findTestObject('Object Repository/Page_App/button_Sign In with Email'))

@@ -27,9 +27,9 @@ WebUI.switchToWindowTitle('App')
 
 WebUI.click(findTestObject('Object Repository/Page_App/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_e3bf66'), 'phamviet12092002@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_App/input__title'), 'phamviet12092002@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input_Forgot password_form-input h-12 w-ful_e3bf66'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_App/input__title'), 
     'B25cOLsYAxgGukWMlPkfRHGv5ELaO1Us6RiEPJlKk6I=')
 
 WebUI.click(findTestObject('Object Repository/Page_App/button_Sign In'))

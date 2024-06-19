@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>77fad790-a8a8-4963-8569-57ed0122605a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(4) > .relative > .mr-16 > button</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>a52c05b5-2214-431d-8399-28663055e2e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M8 12h8</value>
+      <webElementGuid>061b3abe-2270-41b1-8348-c68f043dccf4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;min-h-screen bg-gray-200&quot;]/div[@class=&quot;mx-auto max-w-7xl sm:px-4  grid grid-cols-4 gap-6 pb-10 pt-4&quot;]/div[@class=&quot;col-span-3 mt-3&quot;]/div[4]/div[@class=&quot;relative mt-4 flex  w-full flex-row justify-between rounded-lg bg-white shadow-lg&quot;]/div[@class=&quot;mr-16 mt-3 flex flex-row p-4&quot;]/button[1]/svg[@class=&quot;lucide lucide-circle-plus absolute right-0 top-0 h-5 w-5 translate-x-[-150%] translate-y-6 cursor-pointer text-red-500&quot;]/path[1]</value>
+      <webElementGuid>c7f82ec8-189d-4e12-88f2-1696ad09b743</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

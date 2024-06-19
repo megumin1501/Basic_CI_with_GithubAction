@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_HomePage</name>
+   <name>img_All Jobs_w-108px</name>
    <tag></tag>
    <elementGuidId>13972477-a355-4d88-9a01-4834db7d22c9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div[2]/header/div/a/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>0c5bd499-d378-4aaf-aba5-f1e1198f8ec8</webElementGuid>
+      <webElementGuid>3afd69a7-6092-4b75-b274-52541d6cb000</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/src/assets/logo-fitviec.webp</value>
-      <webElementGuid>f1d5d049-9bfb-4fc4-8679-825f5b7a164b</webElementGuid>
+      <webElementGuid>a7919a11-6563-40e1-aceb-95a2eb65258e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>Logo</value>
-      <webElementGuid>d8396765-7fae-4b62-a02a-14e204f4ae5a</webElementGuid>
+      <webElementGuid>c68d9694-5859-4c34-9f6a-77cead50cc7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-[108px]</value>
-      <webElementGuid>deedaed4-1c0c-4538-9d05-f9869318651c</webElementGuid>
+      <webElementGuid>b43fdafa-b06c-40a7-a61c-7e2ce2250dcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[2]/header[@class=&quot;fixed z-10 flex w-full items-center justify-between border-b-2 border-muted-foreground bg-linear-gradient px-8 2xl:px-40 h-[88px]&quot;]/div[@class=&quot;flex space-x-6&quot;]/a[1]/img[@class=&quot;w-[108px]&quot;]</value>
-      <webElementGuid>1ac714e3-bf15-4ffa-a837-8778cbb65327</webElementGuid>
+      <webElementGuid>fe95cbd2-ca6d-447d-9403-e98873caaa13</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/header/div/a/img</value>
-      <webElementGuid>7e9a6cec-2dee-4345-ae67-4715341f5ccf</webElementGuid>
+      <webElementGuid>397822f6-b384-4956-8845-287a60af7058</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='Logo']</value>
-      <webElementGuid>18a03ad7-48bb-41c3-980b-b99ec35cc385</webElementGuid>
+      <webElementGuid>9b691db3-dcb6-4347-a525-dbb624d1bef0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//img</value>
-      <webElementGuid>f68b9a98-c98f-42cb-b98d-6068ba0cc54a</webElementGuid>
+      <webElementGuid>daa8dddf-b36e-47c1-8796-bbf03ca40643</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/src/assets/logo-fitviec.webp' and @alt = 'Logo']</value>
-      <webElementGuid>ab84b407-fd3e-4ca7-9493-9ab5989b334d</webElementGuid>
+      <webElementGuid>7d9b50fa-365f-4611-9532-efbcf65a1a20</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

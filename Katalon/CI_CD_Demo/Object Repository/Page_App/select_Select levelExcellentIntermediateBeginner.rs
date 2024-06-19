@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select levelExcellentIntermediateBeginner</name>
+   <tag></tag>
+   <elementGuidId>bd68e031-c324-4760-b485-4f546ec12496</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='work-experience-popup']/div/form/div/div/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=combobox</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>517c5a31-c211-4a9b-a284-b7dce00609df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-2/5 rounded-md border p-2</value>
+      <webElementGuid>0f1b1659-6df1-445e-bcd5-8775d6d15c7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select levelExcellentIntermediateBeginner</value>
+      <webElementGuid>88a052e7-bd7c-4ab2-8e26-6df4c2957b10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;work-experience-popup&quot;)/div[@class=&quot;mt-10 flex h-[40%] max-h-[90vh] w-[50%] flex-col justify-between overflow-auto  rounded-lg bg-white p-8 shadow-md transition-all duration-300 ease-in-out&quot;]/form[@class=&quot;w-full rounded-lg bg-white&quot;]/div[1]/div[@class=&quot;mb-4 flex space-x-2&quot;]/select[@class=&quot;w-2/5 rounded-md border p-2&quot;]</value>
+      <webElementGuid>3c44cad4-5fe4-439e-b2a3-cfe24023babb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='work-experience-popup']/div/form/div/div/select</value>
+      <webElementGuid>11fc7043-0451-408b-9ffa-06c64123770e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skills'])[2]/following::select[1]</value>
+      <webElementGuid>ef5b0d22-e775-4d3c-8f96-ff308482a9c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your personal link'])[1]/following::select[1]</value>
+      <webElementGuid>e8f66aa7-6599-497b-a334-8825445449d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[1]/preceding::select[1]</value>
+      <webElementGuid>4e2fd758-846d-4bbf-b3ff-dfb50651833c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Excellent'])[2]/preceding::select[1]</value>
+      <webElementGuid>639bd802-890c-4b68-aeff-407443f4d4a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>de0e8797-482a-4b76-8792-e753121a0d2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'Select levelExcellentIntermediateBeginner' or . = 'Select levelExcellentIntermediateBeginner')]</value>
+      <webElementGuid>bc9a44e1-030f-4da6-a183-a99b123d136c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
