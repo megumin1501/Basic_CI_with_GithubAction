@@ -1,6 +1,8 @@
 import React from 'react';
-import { render, fireEvent } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import TodoApp from '../src/components/TodoApp';
+import { describe, it, expect } from 'vitest';
+import UIForm from '../src/components/UIForm'
 
 describe('TodoApp', () => {
   test('Adding item to the list', () => {
@@ -56,4 +58,10 @@ describe('TodoApp', () => {
     const deletedItem = queryByText('Buy groceries');
     expect(deletedItem).toBeNull();
   });
+
+  test('Test error', () => {
+    expect(1+1).toBe(3)
+  });
 });
+
+
