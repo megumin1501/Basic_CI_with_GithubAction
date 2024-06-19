@@ -51,7 +51,7 @@ jobs:
         id: read_test_result
         run: |
           test_result=$(cat test_result.txt)
-          echo "::set-output name=result::$test_result"
+          echo "{name}={value}" >> $GITHUB_OUTPUT
 
       - name: Send Email Notification
         uses: dawidd6/action-send-mail@v3
