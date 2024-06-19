@@ -27,7 +27,7 @@ jobs:
       continue-on-error: true
       
     - name: Upload test result
-      if: always() # Ensure the test result is always uploaded, even if the test fails
+      if: always() 
       uses: actions/upload-artifact@v3
       with:
         name: test_result
@@ -41,7 +41,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: test_result
-          path: ./ # Ensure it's downloaded to the root of the working directory
+          path: ./ 
       - name: Read test result
         id: read_test_result
         run: |
@@ -74,6 +74,7 @@ jobs:
           # slack-message: "hello world"
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          
     # - name: Download Katalon
     #   run: |
     #     mkdir -p katalon
