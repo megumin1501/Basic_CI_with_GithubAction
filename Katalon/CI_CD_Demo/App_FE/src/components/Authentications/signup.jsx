@@ -91,7 +91,7 @@ const SignUp = () => {
         switch (error.code) {
             case "auth/email-already-in-use":
                 toast.error(
-                    "Oops! This email address is already in use, please try again",
+                    "Oops! This email address is already in sue, please try again",
                 );
                 break;
             case "auth/invalid-email":

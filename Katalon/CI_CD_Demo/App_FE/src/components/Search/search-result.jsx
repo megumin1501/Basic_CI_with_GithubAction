@@ -44,7 +44,7 @@ import { CircleDollarSign, MapPin, Laptop, Filter } from "lucide-react";
 const cities = [
     { value: "all cities", label: "Vietnam" },
     { value: "ho chi minh", label: "Ho Chi Minh" },
-    // { value: "ha noi", label: "Ha Noi" },
+    { value: "ha noi", label: "Ha Noi" },
     { value: "da nang", label: "Da Nang" },
     { value: "others", label: "Others" },
 ];

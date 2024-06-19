@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input__form-input h-12 w-full rounded-sm bo_f18aed_1_2_3_4</name>
+   <tag></tag>
+   <elementGuidId>66246d2a-abee-427b-a4c7-07f7bfa5eee2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-input.h-12.w-full.rounded-sm.border.border-gray-300.py-2.pl-12.pr-4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Work location (province, city, district, ward, street...)&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>b2e3d3b2-b031-4e78-99f4-cf80cd0be47d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>cc375a46-8a92-4660-b53e-3a89216ddceb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-input h-12 w-full rounded-sm border border-gray-300 py-2 pl-12 pr-4</value>
+      <webElementGuid>75588b92-cf98-4114-924f-c8c533dd0d02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Work location (province, city, district, ward, street...)</value>
+      <webElementGuid>133c09ed-baea-42cd-a7bf-5d5b736c4c92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;mx-auto max-w-7xl sm:px-4 w-full max-w-full&quot;]/div[@class=&quot;grid h-full w-full grid-cols-3 xl:grid-rows-1&quot;]/div[@class=&quot;bg-content col-span-2 h-full w-full bg-itviec-register-employer bg-bottom bg-no-repeat pb-8&quot;]/div[@class=&quot;mx-auto mb-8 max-w-[1000px]&quot;]/div[2]/div[@class=&quot;mb-6&quot;]/div[@class=&quot;relative mb-1&quot;]/input[@class=&quot;form-input h-12 w-full rounded-sm border border-gray-300 py-2 pl-12 pr-4&quot;]</value>
+      <webElementGuid>ed7cbc56-9c6a-4ceb-b201-ae963f7f1526</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='']</value>
+      <webElementGuid>a65dac2f-64b3-4862-8a73-105b3809a44d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[4]/div/div/div[3]/div[2]/div[4]/div[2]/input</value>
+      <webElementGuid>9f3b8281-03d9-4a32-86de-e5341973d68e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/input</value>
+      <webElementGuid>938b709c-8e76-4fb3-a078-ab56160b2866</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Work location (province, city, district, ward, street...)']</value>
+      <webElementGuid>a04c2bca-1d52-4327-b9db-fc488a6b272f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
