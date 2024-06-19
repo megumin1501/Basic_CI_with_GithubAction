@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SignIn_Blank_Pw</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>97aae8d1-6577-42eb-8e7b-683f2e96e244</testCaseGuid>
+</TestCaseEntity>

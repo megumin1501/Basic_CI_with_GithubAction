@@ -3,7 +3,7 @@
    <description></description>
    <name>CI_CD_Demo</name>
    <tag></tag>
-   <UUID>03eb242f-a306-4d8d-bb97-15a7672872ef</UUID>
+   <UUID>dd8d4028-0021-41c4-b6f5-7ade213a44b8</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>9.6.0</createdVersion>
    <freeLicense>false</freeLicense>
@@ -11,6 +11,7 @@
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>9.6.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\Admin\git\CI_CD_Demo\CI_CD_Demo.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -30,5 +31,5 @@
       </systemFolderList>
    </sourceContent>
    <timeStampInProperties>false</timeStampInProperties>
-   <type>WEBUI</type>
+   <type>GENERIC</type>
 </Project>

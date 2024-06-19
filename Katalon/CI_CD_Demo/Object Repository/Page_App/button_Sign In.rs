@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Sign In</name>
+   <tag></tag>
+   <elementGuidId>92f529fa-da26-40d1-a97e-d86d76a11ad5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[4]/div/div[2]/div/div[3]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Sign In&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a907f4da-64c5-4c2d-bf33-a8fbaf2be41e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-6 flex h-12 w-full items-center justify-center gap-0 rounded-sm  py-2 font-bold text-white bg-red-500 hover:bg-red-700</value>
+      <webElementGuid>8ca68a6d-a2f5-4feb-84be-4cbc4958e539</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign In </value>
+      <webElementGuid>e6db7f29-c93b-4e21-97e4-d2daf8b3f7e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;mx-auto max-w-7xl sm:px-4 w-full max-w-full sm:px-0&quot;]/div[@class=&quot;grid h-full w-full grid-cols-2 xl:grid-rows-1&quot;]/div[@class=&quot;h-full w-full&quot;]/div[@class=&quot;mx-auto mb-10 mt-[16vh]  max-w-[580px]&quot;]/div[@class=&quot;mb-6&quot;]/button[@class=&quot;mb-6 flex h-12 w-full items-center justify-center gap-0 rounded-sm  py-2 font-bold text-white bg-red-500 hover:bg-red-700&quot;]</value>
+      <webElementGuid>2e90956d-f1b2-422f-b90d-8015182822bf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[4]/div/div[2]/div/div[3]/button</value>
+      <webElementGuid>fb9f1b9d-4962-4123-b014-756098afca1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::button[1]</value>
+      <webElementGuid>282f4c57-620a-4b6c-adc9-5043128ea433</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>5bc72cd8-8670-4017-9fa5-2c2ce6bcc733</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Sign In ' or . = 'Sign In ')]</value>
+      <webElementGuid>e1c8fe5e-d4c7-44e3-826c-285443eaf9c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
