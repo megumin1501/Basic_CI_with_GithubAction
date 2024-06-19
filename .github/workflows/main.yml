@@ -63,6 +63,12 @@ jobs:
             ${{ join( steps.read_test_result.outputs.*,'\n' )}}
           to: sutucon1501@gmail.com
           from: Trung Son Le
+
+      - name: Send GitHub Action trigger data to Slack workflow
+        id: slack
+        uses: slackapi/slack-github-action@v1.26.0
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     # - name: Download Katalon
     #   run: |
     #     mkdir -p katalon
