@@ -37,7 +37,7 @@ jobs:
         password: ${{ secrets.SMTP_PASSWORD }}
         subject: CI/CD Pipeline Notification
         body: |
-          Build ${{ build.result }}
+          Build ${{ needs.build.result }}
           Test Result:
           ${{ join( steps.run_tests.outputs.*,'\n' )}}
         to: sutucon1501@gmail.com
