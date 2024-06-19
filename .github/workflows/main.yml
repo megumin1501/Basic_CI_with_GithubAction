@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,18 +15,19 @@ jobs:
       with:
         node-version: '18.x'
         
-    - name: Test path
-      run: |
-        echo "Workspace path is: ${{ github.workspace }}"
+    # - name: Test path
+    #   run: echo "Workspace path is: ${{ github.workspace }}"
         
     - name: npm install, build, and test
+      id: run_tests
       run: |
         cd App_FE
         npm install
         npm run build --if-present
-        npm run test --if-present 
-        echo "test = $(npm run test)\n" >> $GITHUB_OUTPUT
-      id: run_tests
+        test_output=$(npm run test --if-present 2>&1)
+        echo "test_output<<EOF" >> $GITHUB_ENV
+        echo "$test_output" >> $GITHUB_ENV
+        echo "EOF" >> $GITHUB_ENV
       continue-on-error: true
       
     - name: Send Email Notification
@@ -37,9 +39,9 @@ jobs:
         password: ${{ secrets.SMTP_PASSWORD }}
         subject: CI/CD Pipeline Notification
         body: |
-          Build ${{ needs.build.result }}
+          Build ${{ job.status }}
           Test Result:
-          ${{ join( steps.run_tests.outputs.*,'\n' )}}
+          ${{ env.test_output }}
         to: sutucon1501@gmail.com
         from: Trung Son Le
       
