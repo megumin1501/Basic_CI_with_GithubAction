@@ -48,7 +48,7 @@ jobs:
         id: read_test_result
         run: |
           test_result=$(cat test_result.txt)
-          echo "result=${test_result}" >> $GITHUB_ENV
+          echo "result=${test_result}" >> $GITHUB_OUTPUT
       - name: Send Email Notification
         uses: dawidd6/action-send-mail@v3
         with:
@@ -60,7 +60,7 @@ jobs:
           body: |
             Build Status: ${{ needs.build.result }}
             Test Result:
-            ${{ env.result }}
+            ${{join(steps.read_test_result.outputs.*, '\n')}}
           to: sutucon1501@gmail.com
           from: Trung Son Le
 
