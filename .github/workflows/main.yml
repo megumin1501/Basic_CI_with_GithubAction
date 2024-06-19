@@ -64,11 +64,16 @@ jobs:
           to: sutucon1501@gmail.com
           from: Trung Son Le
 
-      - name: Send GitHub Action trigger data to Slack workflow
+      - name: Post to a Slack channel
         id: slack
         uses: slackapi/slack-github-action@v1.26.0
+        with:
+          channel-id: 'everything'
+          # For posting a simple plain text message
+          # slack-message: "GitHub build result: ${{ job.status }}\n${{ github.event.pull_request.html_url || github.event.head_commit.url }}"
+          slack-message: "hello world"
         env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
     # - name: Download Katalon
     #   run: |
     #     mkdir -p katalon
