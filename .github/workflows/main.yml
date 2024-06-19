@@ -23,7 +23,6 @@ jobs:
         echo "Workspace path is: ${{ github.workspace }}"
 
     - name: npm install, build, and test
-      id: build_and_test
       run: |
         cd App_FE
         npm install
@@ -46,12 +45,12 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: test_result
-          path: ./test_result.txt
+          path: ./ # Ensure it's downloaded to the root of the working directory
 
       - name: Read test result
         id: read_test_result
         run: |
-          test_result=$(cat ./test_result.txt)
+          test_result=$(cat test_result.txt)
           echo "::set-output name=result::$test_result"
 
       - name: Send Email Notification
@@ -68,6 +67,7 @@ jobs:
             ${{ steps.read_test_result.outputs.result }}
           to: sutucon1501@gmail.com
           from: Trung Son Le
+
 
 
 
