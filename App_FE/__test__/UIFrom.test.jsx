@@ -52,7 +52,7 @@ const testCases = [
 ];
 
 
-describe('IT Job Application', () => {
+describe('UI Form', () => {
     test('renders the application form', () => {
     render(<UIForm />);
     expect(screen.getByText('IT Job Application')).toBeInTheDocument();
@@ -73,7 +73,7 @@ describe('IT Job Application', () => {
     expect(screen.getByLabelText(/position/i)).toBeInTheDocument();
   });
 
-  test('form submits correctly with valid data', () => {
+  test('form submits correctly', () => {
     render(<UIForm />);
 
     fireEvent.change(screen.getByLabelText(/name/i), { target: { value: 'John Doe' } });
@@ -105,12 +105,10 @@ describe('test UI Form with data driven', () => {
 
       // For simplicity, assume we check for a form submission success/failure message.
       if (testCase.shouldSubmit) {
-        // Check if the form submission is successful
-        // This is a placeholder, adjust based on your actual success message or behavior
+        // neu form submit thi ki vong hien thi successfully
         expect(screen.getByText(/application submitted successfully/i)).toBeInTheDocument();
       } else {
-        // Check if the form submission is blocked or an error is shown
-        // This is a placeholder, adjust based on your actual error message or behavior
+        // neu form khong submit thi ki vong khong hien thi successfully
         expect(screen.queryByText(/application submitted successfully/i)).not.toBeInTheDocument();
       }
     });

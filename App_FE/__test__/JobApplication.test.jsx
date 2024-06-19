@@ -5,7 +5,7 @@ import JobApplication from '../src/components/ui/job-application'
 
 const testCases = [
   {
-    name: 'John Doe',
+    name: 'John',
     email: 'john@example.com',
     position: 'frontend',
     experience: 5,
@@ -23,7 +23,7 @@ const testCases = [
     shouldSubmit: false
   },
   {
-    name: 'Jane Smith',
+    name: 'Jane',
     email: 'jane@example.com',
     position: 'backend',
     experience: 3,
@@ -32,7 +32,7 @@ const testCases = [
     shouldSubmit: true
   },
   {
-    name: 'Mark Brown',
+    name: 'Mark',
     email: 'mark@example.com',
     position: 'fullstack',
     experience: -1,
@@ -41,7 +41,7 @@ const testCases = [
     shouldSubmit: false
   },
   {
-    name: 'Lisa White',
+    name: 'Lisa',
     email: 'lisa@example.com',
     position: 'frontend',
     experience: 2,
@@ -50,7 +50,7 @@ const testCases = [
     shouldSubmit: true
   },
   {
-    name: 'Alice Green',
+    name: 'Alice',
     email: 'alice@example.com',
     position: 'frontend',
     experience: 4,
@@ -68,7 +68,7 @@ const testCases = [
     shouldSubmit: false
   },
   {
-    name: 'Bob Brown',
+    name: 'Bob',
     email: 'bob@example.com',
     position: '',
     experience: 3,
@@ -77,7 +77,7 @@ const testCases = [
     shouldSubmit: false
   },
   {
-    name: 'Carol Blue',
+    name: 'Carol',
     email: 'carol@example.com',
     position: 'backend',
     experience: 2,
@@ -86,7 +86,7 @@ const testCases = [
     shouldSubmit: false
   },
   {
-    name: 'Dan Yellow',
+    name: 'Dan',
     email: 'dan@example.com',
     position: 'fullstack',
     experience: 7,
@@ -96,8 +96,9 @@ const testCases = [
   }
 ];
 
-describe('IT Job Application - Data Driven Tests', () => {
+describe('Test Job Application with Data Driven Tests', () => {
   testCases.forEach((testCase, index) => {
+    // loop qua 10 data 
     it(`TC ${index + 1}: ${testCase.shouldSubmit ? 'should' : 'should not'} submit`, () => {
       render(<JobApplication />);
 
@@ -113,14 +114,11 @@ describe('IT Job Application - Data Driven Tests', () => {
 
       fireEvent.click(screen.getByText(/apply/i));
 
-      // For simplicity, assume we check for a form submission success/failure message.
       if (testCase.shouldSubmit) {
-        // Check if the form submission is successful
-        // This is a placeholder, adjust based on your actual success message or behavior
+        // neu form submit thi ki vong hien thi successfully
         expect(screen.getByText(/application submitted successfully/i)).toBeInTheDocument();
       } else {
-        // Check if the form submission is blocked or an error is shown
-        // This is a placeholder, adjust based on your actual error message or behavior
+        // neu form khong submit thi ki vong khong hien thi successfully
         expect(screen.queryByText(/application submitted successfully/i)).not.toBeInTheDocument();
       }
     });
