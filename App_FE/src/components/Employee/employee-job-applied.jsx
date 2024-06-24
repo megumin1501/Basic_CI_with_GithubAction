@@ -1,6 +1,5 @@
 import EmployeeJobNavbar from "./employee-job-navbar";
 import JobDetail from "../Search/job-detail";
-import JobCard from "../ui/job-card";
 import EmployeeViewJobCard from "./employee-view-jobcard";
 import EmployeeViewAppliedJob from "./employee-view-applied-job";
 
