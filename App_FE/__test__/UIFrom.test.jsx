@@ -62,7 +62,6 @@ describe('UI Form', () => {
     render(<UIForm />);
     expect(screen.getByLabelText(/name/i)).toBeInTheDocument();
   });
-
   test('contains an email input field', () => {
     render(<UIForm />);
     expect(screen.getByLabelText(/email/i)).toBeInTheDocument();
